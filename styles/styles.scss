@@ -14,7 +14,7 @@ Variables
 --------------------*/
 :root {
     --color-primary: #19192b;
-    --color-secondary: #9aae27;
+    --color-secondary: #6a27ae;
     --color-white: #fffaf0;
     --color-black: #000;
     --color-grey-0: #f8f8f8;
@@ -58,3 +58,33 @@ section {
     border: 2px solid red;
 }
 
+.section {
+    transform: translateY(-100%) scale(0);
+    transition: var(--transition);
+    background-color: var(--color-primary);
+}
+
+.sect1 {
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
+.sect2 {
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
+.sect3 {
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
+.sect4 {
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
+.sect5 {
+    display: none;
+    transform: translateY(0) scale(1);
+}
