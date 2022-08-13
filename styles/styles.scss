@@ -104,7 +104,6 @@ Controls
     justify-content: center;
     align-items: center;
     transform: translateY(-50%);
-    // border: solid 1px red;
     .control {
         padding: 1rem;
         cursor: pointer;
@@ -121,6 +120,13 @@ Controls
             font-size: 1.2rem;
             color: var(--color-grey-2);
             pointer-events: none;
+        }
+    }
+    .active-btn {
+        background-color: var(--color-secondary);
+        transition: var(--transition);
+        i {
+            color: var(--color-white);
         }
     }
 }
